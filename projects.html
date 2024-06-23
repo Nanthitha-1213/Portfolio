@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Nanthitha Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 35px 12%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .navbar a {
+            font-size: 18px;
+            color: white;
+            font-weight: 500;
+            margin: 0 20px;
+            border-bottom: 3px solid transparent;
+            transition: 0.3s ease;
+        }
+
+        .navbar a:hover,
+        .navbar a:active {
+            color: orangered;
+            border-bottom: 3px solid orangered;
+        }
+
+        
+        .projects {
+            padding: 5% 12%;
+            background: rgb(241, 241, 241);
+            margin-top: 5em; 
+        }
+
+        .heading {
+            text-align: center;
+            font-size: 42px;
+            margin-bottom: 2em;
+        }
+
+        .project {
+            margin-bottom: 3em;
+        }
+
+        .project h3 {
+            font-size: 28px;
+            margin-bottom: 1em;
+        }
+
+        .project p {
+            font-size: 18px;
+            margin-bottom: 1em;
+            line-height: 1.6;
+        }
+
+        .btn-1, .btn-2 {
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .btn-1:hover, .btn-2:hover {
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="about.html">About Me</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="education.html">Education</a>
+            <a href="certification.html">Certification</a>
+        </nav>
+        
+    </header>
+
+    <section class="projects">
+        <h2 class="heading">Projects</h2>
+
+        <div class="project">
+            <h3>Research Project: WhatsApp Group Chat Analysis by Using Machine Learning</h3>
+            <p>This project involves exporting chat data from a WhatsApp group to analyze the frequency of messages from each participant. The analysis identifies the most active members using word clouds and compares two algorithms: Decision Tree and Naive Bayesian.</p>
+            <a href="https://drive.google.com/file/d/1mShnN7ivT79ZfnRZBKgzZhDmPVTXwKz0/view?usp=drive_link" class="btn-1" download>Download Documentation</a>
+            <a href="https://colab.research.google.com/your-colab-link" class="btn-2">View on Google Colab</a>
+        </div>
+
+        <div class="project">
+            <h3>Research Project: Sentimental Analysis with Continuous Bag of Words for Book Reviews</h3>
+            <p>This research project analyzes sentiments in Amazon book reviews. It is a multiclass classification problem, categorizing reviews into negative, positive, and neutral. The insights from this analysis help people choose books and aid in business development.</p>
+            <a href="https://drive.google.com/file/d/17QRKeNL7Jmqhz0CIkxkNPyrs2-PLZfNy/view?usp=drive_link" class="btn-1" download>Download Documentation</a>
+            <a href="https://colab.research.google.com/your-colab-link" class="btn-2">View on Google Colab</a>
+        </div>
+
+        <div class="project">
+            <h3>Agricultural Assistant System</h3>
+            <p>The main motive of this project is to assist people who are new to agriculture. By logging in, they can select whether they cultivate on a terrace garden or lands. By clicking, they can select crops, and we can assist with fertilizers and soil type selection.</p>
+            <a href="https://drive.google.com/file/d/1Hxe3ZkQcQrzVga93aXGFOox4A0H6Eo6y/view?usp=drive_link" class="btn-1" download>Download Documentation</a>
+            <a href="https://github.com/your-github-repo" class="btn-2">View on GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>Research Project:Eye Diseases Classification using Deep Learning Algorithms</h3>
+            <p>This research project focuses on classifying images into four categories: glaucoma, cataract, normal, and diabetic retinopathy using deep learning algorithms like DenseNet and ResNet. The classification aids in early detection and prevention of eye diseases.</p>
+            <a href="https://drive.google.com/file/d/15PERo51a42dFpcvs-gbW1preaZmDeKEJ/view?usp=drive_link" class="btn-1" download>Download Documentation</a>
+            <a href="https://colab.research.google.com/drive/1The-Hr493uIf7jT31itL7kj02K1ct_zf?usp=sharing" class="btn-2">View on Google Colab</a>
+        </div>
+    </section>
+
+        
+    
+</body>
+</html>

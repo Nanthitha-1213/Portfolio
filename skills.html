@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanthitha Portfolio</title>
+    <style>
+       
+       
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url('bg.jpg');
+            
+            
+        }
+
+        .main {
+            max-width: 1200px;
+            margin: 100px;
+            padding: 20px;
+            margin-top: 200px;
+           
+            background-size: cover; 
+            background-position: center;
+              }
+
+       
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            
+        }
+
+       
+
+        .navbar {
+            display: flex;
+            gap: 20px;
+            
+           
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        .active {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+       
+        #skills {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-top: 20px;
+            margin-left:20px;
+            border-radius: 8px;
+            box-shadow: 5px 5px 5px pink;
+            background-image: url('bg.jpg');
+            padding-left:200px;
+        }
+
+        #skills h2 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        #skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #skills li {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+      
+        <nav class="navbar">
+            <a href="about.html">About Me</a>
+            <a href="#skills" class="active">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="education.html">Education</a>
+            <a href="certification.html">Certification</a>
+        </nav>
+    </header>
+
+    <div class="main">
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+               
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
